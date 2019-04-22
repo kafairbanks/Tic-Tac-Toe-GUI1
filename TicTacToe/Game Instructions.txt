@@ -1,0 +1,11 @@
+Game Instructions:
+
+Objectives:
+This is Tic-Tac-Quatro! A game of 3-D Tic-Tac-Toe where the players must get four in a row across the four cross sections of a 3-D cube. Winning rows include horizontal, vertical, diagonal and those made in 3-D space. Good luck!
+
+Controls:
+Use the arrows keys to move the cursor across the board. Press 'Enter' to place your token in the corresponding box. If the move is valid, your token will appear on the board and your turn is over. Next, the opponent will decide and place their token in a box.
+
+Win/Lose Conditions:
+
+The game is over once a player completes their row. The first player who does is deemed victor, while the opponent is a loser. If you win the game, you score a point. Can you reach the high score????

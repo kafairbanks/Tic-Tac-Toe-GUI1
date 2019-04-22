@@ -1,0 +1,73 @@
+/* background: #D6E3F8
+text: #584B53
+accent (skin) : #FEF5EF
+accent (burgundy) : #9D5C63
+accent (tan) : #E4BB97 */
+
+.root {
+    -fx-background-color: linear-gradient(#D6E3F8, #FEF5EF);
+}
+
+.bg {
+     -fx-background-color: linear-gradient(#D6E3F8, #FEF5EF);
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #584B53;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#welcome-text {
+	-fx-font-size: 32px;
+	-fx-font-family: "Arial Black";
+	-fx-fill: #FEF5EF;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#lost {
+	-fx-font-size: 32px;
+	-fx-font-family: "Arial Black";
+	-fx-fill: #FF0000;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#won {
+	-fx-font-size: 32px;
+	-fx-font-family: "Arial Black";
+    -fx-fill: linear-gradient(#E4BB97, #9D5C63);
+    -fx-stroke: black;
+    -fx-stroke-width: 1;
+}
+
+#actiontarget {
+	-fx-fill: #9D5C63;
+	-fx-font-family: "Arial Black";
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );  
+}
+
+.button {
+    -fx-text-fill: #584B53;
+    -fx-font-family: "Arial Black";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#FEF5EF, #E4BB97);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#E4BB97, #FEF5EF);
+}
+
+.line{
+    -fx-background-color: #9D5C63;
+    -fx-background-radius: 4;
+}
+
+#msg {
+	-fx-text-fill: #9D5C63;
+	-fx-font-family: "Arial Black";
+	-fx-font-size: 80px;
+	-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 ); 
+}
